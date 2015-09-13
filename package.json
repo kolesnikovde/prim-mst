@@ -1,0 +1,25 @@
+{
+  "name": "prim-mst",
+  "version": "1.0.0",
+  "description": "Prim's MST algorithm implementation.",
+  "author": "Danil Kolesnikov <kolesnikovde@gmail.com>",
+  "homepage": "https://github.com/kolesnikovde/prim-mst",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:kolesnikovde/prim-mst.git"
+  },
+  "keywords": [
+    "prim-mst",
+    "prim",
+    "mst",
+    "graph"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "2.3.0"
+  }
+}

@@ -1,9 +1,9 @@
 var assert = require('assert');
-var mst = require('./');
+var prim = require('./');
 
 describe('prim-mst', function() {
   it('finds MST', function() {
-    var result = mst([
+    var result = prim([
       [0, 1, 7],
       [0, 3, 5],
       [1, 2, 8],
